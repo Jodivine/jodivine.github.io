@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box {
+    width: 30%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-15%, 0%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 20px;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 3px solid #fff;
+    padding: 12, 34;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px, solid rgb(159, 175, 13);
+    background: rgb(99, 109, 6);
+    transition: 1s;
+}
+
+
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.bebra{
+  background-image: linear-gradient(to bottom, rgb(133, 187, 8), white);
+}
+.mazda{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.h1{
+  font-size:36px;
+  font-weight: 600;
+
+}
+.p{
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  }
+  .about-column{
+    flex-basis: 31%;
+    background: #a9d521;
+    border-radius: 100px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+  }
+  .butons{display: inline-block;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      border: 3px solid #fff;
+      padding: 12, 34;
+      font-size: 13px;
+      background: transparent;
+      position: relative;
+      cursor: pointer;
+    }
+    .butons:hover {
+      border: 1px, solid rgb(159, 175, 13);
+      background: rgb(99, 109, 6);
+      transition: 1s;
+    }
+.h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+
+}
+
+.about-column:hover{
+  box-shadow: 0 0 20px black;
+
+
+}
+@media(max width: 700px){
+  .row{
+    flex-direction: column;
+
+  }
+}
+.mood-cloumn img{min-height: 70vh;
+    width: 70%;
+    position: relative;
+  
+}
+.e img{
+     min-height: 35vh;
+    width: 35%;
+    position: relative;
+    
+}
