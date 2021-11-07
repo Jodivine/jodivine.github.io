@@ -16,7 +16,7 @@
 
 .text-box {
     width: 30%;
-    color: rgb(0, 0, 0);
+    color: rgb(46 46 52);
     position: absolute;
     top: 30%;
     left: 60%;
@@ -53,7 +53,7 @@
   justify-content: space-between;
 }
 .bebra{
-  background-image: linear-gradient(to bottom, rgb(133, 187, 8), white);
+  background-image: linear-gradient(to bottom, rgb(85 92 129), white);
 }
 .mazda{
   width: 80%;
@@ -80,10 +80,10 @@
   }
   .about-column{
     flex-basis: 31%;
-    background: #a9d521;
-    border-radius: 100px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
+    background: #737863;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    padding: 25px 12px;
     box-sizing: border-box;
 
   }
